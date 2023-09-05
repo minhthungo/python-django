@@ -1,0 +1,21 @@
+{
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "html.suggest.html5": true,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html"
+    },
+    "[django-html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.quickSuggestions": {
+            "comments": true,
+            "other": true,
+            "strings": true
+        },
+        "editor.tabSize": 4,
+        "editor.wordWrap": "on"
+    }
+}
